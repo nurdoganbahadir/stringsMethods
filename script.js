@@ -90,4 +90,6 @@
 // let list1 = ["fiat", "renault", "porsche", "citroen", "peugeot"];
 // console.log(list1.toString().toUpperCase());
 
-//? 
+//? toString bir objeyi string ifadeye çevirmeyi sağlar.
+// let list1 = ["fiat", "renault", "porsche", "citroen", "peugeot"];
+// console.log(list1.toString());
