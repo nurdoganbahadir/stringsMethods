@@ -73,6 +73,12 @@
 // let list2 = list1.slice(1, 3);
 // console.log(list2);
 
-//? split() methodu istediğimiz string ifadeden itibaren stringi bölmemizi sağlar. String ifadeyi diziye dönüştürür.
+//! split() methodu istediğimiz string ifadeden itibaren stringi bölmemizi sağlar. String ifadeyi diziye dönüştürür.
 // let metin = "Kocaeli'de yaşıyorum.";
 // console.log(metin.split("a"));
+
+//? substring metodu, bir string'in belirli bir kısmını çıkarıp yeni bir string olarak döndürmek için kullanılır. Bu metod, orijinal string'i değiştirmez, sadece belirtilen aralıktaki karakterleri içeren yeni bir string oluşturur.
+// let metin = "Kocaeli'de yaşıyorum.";
+// console.log(metin);
+// let metins = metin.substring(0, 7).split();
+// console.log(metins);
