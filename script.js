@@ -55,8 +55,11 @@
 // console.log(metins);
 
 //? repeat() string ifadeyi istediğimiz sayıda döndürmemizi sağlar.
+// let metin = "Kocaeli'de yaşıyorum.";
+// let metins = metin.repeat(1)
+// console.log(metins);
+
+//! replace() bu method string ifadeleri değiştirmemizi sağlar.
 let metin = "Kocaeli'de yaşıyorum.";
-let metins = metin.repeat(1)
+let metins = metin.replace("a","y");
 console.log(metins);
-
-
