@@ -93,3 +93,8 @@
 //? toString bir objeyi string ifadeye çevirmeyi sağlar.
 // let list1 = ["fiat", "renault", "porsche", "citroen", "peugeot"];
 // console.log(list1.toString());
+
+//? trim baştaki ve sondaki boşlukları silmeye yarar.
+let metin = "   Kocaeli'de yaşıyorum.";
+let metin2 = metin.trim();
+console.log(metin2);
