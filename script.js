@@ -8,4 +8,8 @@ console.log(inMetin);
 let inMetin2 = metin.charCodeAt(2);
 console.log(inMetin2);
 
-//? concat();
+//? concat() methodu 2 farklı string ifadeyi birleştirmeye yarar.
+let list1 = ["fiat", "renault", "porsche", "citroen", "peugeot"];
+let list2 = ["lambo", "ferrari"];
+let lists = list1.concat(list2);
+console.log(lists);
