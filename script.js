@@ -95,6 +95,6 @@
 // console.log(list1.toString());
 
 //? trim baştaki ve sondaki boşlukları silmeye yarar.
-let metin = "   Kocaeli'de yaşıyorum.";
-let metin2 = metin.trim();
-console.log(metin2);
+// let metin = "   Kocaeli'de yaşıyorum.";
+// let metin2 = metin.trim();
+// console.log(metin2);
