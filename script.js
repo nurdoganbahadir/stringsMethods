@@ -82,3 +82,8 @@
 // console.log(metin);
 // let metins = metin.substring(0, 7).split();
 // console.log(metins);
+
+//! toLowerCase and toUpperCase string ifadedeki harfleri küçültmeye veya büyültmeye yarar.
+let metin = "Kocaeli'de yaşıyorum.";
+console.log(metin.toUpperCase());
+console.log(metin.toLowerCase());
