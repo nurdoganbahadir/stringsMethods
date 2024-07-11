@@ -84,6 +84,10 @@
 // console.log(metins);
 
 //! toLowerCase and toUpperCase string ifadedeki harfleri küçültmeye veya büyültmeye yarar.
-let metin = "Kocaeli'de yaşıyorum.";
-console.log(metin.toUpperCase());
-console.log(metin.toLowerCase());
+// let metin = "Kocaeli'de yaşıyorum.";
+// console.log(metin.toUpperCase());
+// console.log(metin.toLowerCase());
+// let list1 = ["fiat", "renault", "porsche", "citroen", "peugeot"];
+// console.log(list1.toString().toUpperCase());
+
+//? 
