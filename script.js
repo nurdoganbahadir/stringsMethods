@@ -50,7 +50,13 @@
 // console.log(metins);
 
 //! match() bu metot dizi içindeki elemlardan bizlere istediğimizi yine dizi olarak döndürür çok kullanışlıdır.
+// let metin = "Kocaeli'de yaşıyorum.";
+// let metins = metin.match(/a/g);
+// console.log(metins);
+
+//? repeat() string ifadeyi istediğimiz sayıda döndürmemizi sağlar.
 let metin = "Kocaeli'de yaşıyorum.";
-let metins = metin.match(/a/g);
+let metins = metin.repeat(1)
 console.log(metins);
+
 
