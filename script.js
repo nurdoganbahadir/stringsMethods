@@ -1,6 +1,6 @@
 // let metin = "Kocaeli'de yaşıyorum.";
 
-//? charAt() belirtilen indeks numarasındaki string ifadeyi döndürür.
+//! charAt() belirtilen indeks numarasındaki string ifadeyi döndürür.
 // let inMetin = metin.charAt(1);
 // console.log(inMetin);
 
@@ -8,7 +8,7 @@
 // let inMetin2 = metin.charCodeAt(2);
 // console.log(inMetin2);
 
-//? concat() methodu 2 farklı string ifadeyi birleştirmeye yarar.
+//! concat() methodu 2 farklı string ifadeyi birleştirmeye yarar.
 // let list1 = ["fiat", "renault", "porsche", "citroen", "peugeot"];
 // let list2 = ["lambo", "ferrari"];
 // let lists = list1.concat(list2);
@@ -29,12 +29,28 @@
 // let character = String.fromCharCode(list);
 // console.log(character);
 
-//? includes() dizi elemanlarını aramanı sağlar.
+//! includes() dizi elemanlarını aramanı sağlar.
 // let list1 = ["fiat", "renault", "porsche", "citroen", "peugeot"];
 // console.log(list1);
 // let lists = list1.includes("renault",6)
 // console.log(lists);
 
-//? indexOf() içindeki string ifadeyi değişkende aratır ve indeks numarasını döndürür. Yanına aldığı sayı başlangıç değeridir.
+//! indexOf() içindeki string ifadeyi değişkende aratır ve indeks numarasını döndürür. Yanına aldığı sayı başlangıç değeridir.
+// let metin = "Kocaeli'de yaşıyorum.";
+// console.log(metin.indexOf("l",4));
+
+//?lastİndexOf() istenilen karakterin son geçtiği indexi döndürür.
+// let metin = "Kocaeli'de yaşıyorum.";
+// console.log(metin.lastIndexOf("o"));
+
+//? lcoaleCompare()  iki string'i yerel dil kurallarına göre karşılaştırır ve karşılaştırmanın sonucunu döndürür.
+// let metin = "Kocaeli'de yaşıyorum.";
+// let metin2 = "Gelecekte Kocaeli'de yaşamayacağım.";
+// let metins = metin.localeCompare(metin2);
+// console.log(metins);
+
+//! match() bu metot dizi içindeki elemlardan bizlere istediğimizi yine dizi olarak döndürür çok kullanışlıdır.
 let metin = "Kocaeli'de yaşıyorum.";
-console.log(metin.indexOf("l",4));
+let metins = metin.match(/a/g);
+console.log(metins);
+
