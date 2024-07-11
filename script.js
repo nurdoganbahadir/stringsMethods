@@ -25,7 +25,13 @@
 // console.log(lists);
 
 //? fromCharCode() unicode numarasının karşılığını verir
-let list = 72;
-let character = String.fromCharCode(list);
-console.log(character);
+// let list = 72;
+// let character = String.fromCharCode(list);
+// console.log(character);
+
+//? includes() dizi elemanlarını aramanı sağlar.
+let list1 = ["fiat", "renault", "porsche", "citroen", "peugeot"];
+console.log(list1);
+let lists = list1.includes("renault",6)
+console.log(lists);
 
