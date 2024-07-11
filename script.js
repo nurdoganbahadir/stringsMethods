@@ -54,12 +54,17 @@
 // let metins = metin.match(/a/g);
 // console.log(metins);
 
-//? repeat() string ifadeyi istediğimiz sayıda döndürmemizi sağlar.
+//? repeat() string ifadeyi istediğimiz sayıda döndürmemizi sağlar. Yeni bir string döndürür.
 // let metin = "Kocaeli'de yaşıyorum.";
 // let metins = metin.repeat(1)
 // console.log(metins);
 
-//! replace() bu method string ifadeleri değiştirmemizi sağlar.
-let metin = "Kocaeli'de yaşıyorum.";
-let metins = metin.replace("a","y");
-console.log(metins);
+//! replace() bu method string ifadeleri değiştirmemizi sağlar. Yeni bir string ifade üretir  orjinali değiştirmez.
+// let metin = "Kocaeli'de yaşıyorum.";
+// let metins = metin.replace("a","y");
+// console.log(metins);
+
+//? search() eşleşen ilk ifadenin indeksini döner
+// let metin = "Kocaeli'de yaşıyorum.";
+// console.log(metin.search("y"));
+
