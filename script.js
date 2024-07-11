@@ -68,3 +68,11 @@
 // let metin = "Kocaeli'de yaşıyorum.";
 // console.log(metin.search("y"));
 
+//! slice() slice methodu verilen index aralığını alır ve yeni bir string olarak döndürür. Eğer diziyse dizi olarak döndürür.
+// let list1 = ["fiat", "renault", "porsche", "citroen", "peugeot"];
+// let list2 = list1.slice(1, 3);
+// console.log(list2);
+
+//? split() methodu istediğimiz string ifadeden itibaren stringi bölmemizi sağlar. String ifadeyi diziye dönüştürür.
+// let metin = "Kocaeli'de yaşıyorum.";
+// console.log(metin.split("a"));
