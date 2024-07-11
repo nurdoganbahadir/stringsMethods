@@ -20,7 +20,12 @@
 // console.log(lists);
 
 //? startsWith() içine aldığı değerin başta olup olmadığını kontrol eder.
-let list = "Kocaeli'de yaşıyorum.";
-let lists = list.startsWith("K");
-console.log(lists);
+// let list = "Kocaeli'de yaşıyorum.";
+// let lists = list.startsWith("K");
+// console.log(lists);
+
+//? fromCharCode() unicode numarasının karşılığını verir
+let list = 72;
+let character = String.fromCharCode(list);
+console.log(character);
 
